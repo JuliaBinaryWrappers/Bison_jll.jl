@@ -1,11 +1,11 @@
 [[Bison]]
 arch = "aarch64"
-git-tree-sha1 = "935ccfeb74f920a41bf64947325fca24e6d8f558"
+git-tree-sha1 = "0bee0fdbba14d14b83bc28d9671b34b6f846c657"
 os = "macos"
 
     [[Bison.download]]
-    sha256 = "0c43f213ebf3992a5ee87a1ff4da5f148ae3a6792a8b54cc563c01cc5fb63fc5"
-    url = "https://github.com/JuliaBinaryWrappers/Bison_jll.jl/releases/download/Bison-v3.8.2+2/Bison.v3.8.2.aarch64-apple-darwin.tar.gz"
+    sha256 = "d8e4950c6254295c355a1747873e7634c555da96126ac546d8b251013d548206"
+    url = "https://github.com/JuliaBinaryWrappers/Bison_jll.jl/releases/download/Bison-v3.8.3+0/Bison.v3.8.3.aarch64-apple-darwin.tar.gz"
 [[Bison]]
 arch = "aarch64"
 git-tree-sha1 = "52543db2d16a343571d042f9dc1eb2285193fa4a"
@@ -14,7 +14,7 @@ os = "linux"
 
     [[Bison.download]]
     sha256 = "71649e6c18aea871789cbac03b69fdbab6471b444708ec3fcef50509c2ef145a"
-    url = "https://github.com/JuliaBinaryWrappers/Bison_jll.jl/releases/download/Bison-v3.8.2+2/Bison.v3.8.2.aarch64-linux-gnu.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/Bison_jll.jl/releases/download/Bison-v3.8.3+0/Bison.v3.8.3.aarch64-linux-gnu.tar.gz"
 [[Bison]]
 arch = "aarch64"
 git-tree-sha1 = "06fbbc0b50fe8eef7d3918ae4495591f2b8c0c02"
@@ -23,7 +23,15 @@ os = "linux"
 
     [[Bison.download]]
     sha256 = "abc41abe84957fcefcca505fe004150ef271209b2523f9c8a63319d4c7fc94a3"
-    url = "https://github.com/JuliaBinaryWrappers/Bison_jll.jl/releases/download/Bison-v3.8.2+2/Bison.v3.8.2.aarch64-linux-musl.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/Bison_jll.jl/releases/download/Bison-v3.8.3+0/Bison.v3.8.3.aarch64-linux-musl.tar.gz"
+[[Bison]]
+arch = "aarch64"
+git-tree-sha1 = "6fe0fa78bb92f6c1bd936597153d0828f9670b1a"
+os = "freebsd"
+
+    [[Bison.download]]
+    sha256 = "3f33cb2261b5c7ae126c75f5a882c21f6ed4cc5bcc8191665daaf3cbe07108d8"
+    url = "https://github.com/JuliaBinaryWrappers/Bison_jll.jl/releases/download/Bison-v3.8.3+0/Bison.v3.8.3.aarch64-unknown-freebsd.tar.gz"
 [[Bison]]
 arch = "armv6l"
 call_abi = "eabihf"
@@ -33,7 +41,7 @@ os = "linux"
 
     [[Bison.download]]
     sha256 = "df9cdfd56474ef8102ef293c81fe6f0a621a6d3eff1091d5cdfad3adb63c77d9"
-    url = "https://github.com/JuliaBinaryWrappers/Bison_jll.jl/releases/download/Bison-v3.8.2+2/Bison.v3.8.2.armv6l-linux-gnueabihf.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/Bison_jll.jl/releases/download/Bison-v3.8.3+0/Bison.v3.8.3.armv6l-linux-gnueabihf.tar.gz"
 [[Bison]]
 arch = "armv6l"
 call_abi = "eabihf"
@@ -43,7 +51,7 @@ os = "linux"
 
     [[Bison.download]]
     sha256 = "36a188796af1fa861a9d14ffd78a7d3eb558274728a5b39259ddabe411f3d06c"
-    url = "https://github.com/JuliaBinaryWrappers/Bison_jll.jl/releases/download/Bison-v3.8.2+2/Bison.v3.8.2.armv6l-linux-musleabihf.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/Bison_jll.jl/releases/download/Bison-v3.8.3+0/Bison.v3.8.3.armv6l-linux-musleabihf.tar.gz"
 [[Bison]]
 arch = "armv7l"
 call_abi = "eabihf"
@@ -53,7 +61,7 @@ os = "linux"
 
     [[Bison.download]]
     sha256 = "70f80a56dae364693dba04ace3f219c2122efcea8cc100750fec8cb02cfeaaf8"
-    url = "https://github.com/JuliaBinaryWrappers/Bison_jll.jl/releases/download/Bison-v3.8.2+2/Bison.v3.8.2.armv7l-linux-gnueabihf.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/Bison_jll.jl/releases/download/Bison-v3.8.3+0/Bison.v3.8.3.armv7l-linux-gnueabihf.tar.gz"
 [[Bison]]
 arch = "armv7l"
 call_abi = "eabihf"
@@ -63,16 +71,16 @@ os = "linux"
 
     [[Bison.download]]
     sha256 = "d18145ecc1d0d6ad532b1516521ca04bf86ca72d9813eb8150a9413c1acea62f"
-    url = "https://github.com/JuliaBinaryWrappers/Bison_jll.jl/releases/download/Bison-v3.8.2+2/Bison.v3.8.2.armv7l-linux-musleabihf.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/Bison_jll.jl/releases/download/Bison-v3.8.3+0/Bison.v3.8.3.armv7l-linux-musleabihf.tar.gz"
 [[Bison]]
 arch = "i686"
-git-tree-sha1 = "71b2afdaf284e1b07c21b24b790cf14b7152f950"
+git-tree-sha1 = "e1e64538bb25f29ad015db5f0a58649b0b9df575"
 libc = "glibc"
 os = "linux"
 
     [[Bison.download]]
-    sha256 = "981340910df87c78f002ce474c04848d68ba990cc228104905c58452a9931d61"
-    url = "https://github.com/JuliaBinaryWrappers/Bison_jll.jl/releases/download/Bison-v3.8.2+2/Bison.v3.8.2.i686-linux-gnu.tar.gz"
+    sha256 = "78bd479de8bc47c155787caeeae1ab33019540afe902ef79d1d87e4293281eb6"
+    url = "https://github.com/JuliaBinaryWrappers/Bison_jll.jl/releases/download/Bison-v3.8.3+0/Bison.v3.8.3.i686-linux-gnu.tar.gz"
 [[Bison]]
 arch = "i686"
 git-tree-sha1 = "7921ed06e7a61408a5f260eabc5d924d687a4667"
@@ -81,15 +89,15 @@ os = "linux"
 
     [[Bison.download]]
     sha256 = "bf25565eea247a363ebaa993e2c6e3afec4bfe41973204203289bdd022d84bf8"
-    url = "https://github.com/JuliaBinaryWrappers/Bison_jll.jl/releases/download/Bison-v3.8.2+2/Bison.v3.8.2.i686-linux-musl.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/Bison_jll.jl/releases/download/Bison-v3.8.3+0/Bison.v3.8.3.i686-linux-musl.tar.gz"
 [[Bison]]
 arch = "i686"
-git-tree-sha1 = "801dcf5bc4881e850dd1fe689f2c034feceb45ec"
+git-tree-sha1 = "6c948ecc7dd734b290dd6bd03f5925dd88d9d8bb"
 os = "windows"
 
     [[Bison.download]]
-    sha256 = "b14d3e8b5e72f38991059f5f156d07061cb32065c0eb288458e71c32a3fd0cf4"
-    url = "https://github.com/JuliaBinaryWrappers/Bison_jll.jl/releases/download/Bison-v3.8.2+2/Bison.v3.8.2.i686-w64-mingw32.tar.gz"
+    sha256 = "138f2ee46c24cdc106073fd3ed916848ddb66e76ba2ecaa4a633b49fb341db8e"
+    url = "https://github.com/JuliaBinaryWrappers/Bison_jll.jl/releases/download/Bison-v3.8.3+0/Bison.v3.8.3.i686-w64-mingw32.tar.gz"
 [[Bison]]
 arch = "powerpc64le"
 git-tree-sha1 = "ff9dafc5e74c82e8d51274f64f4de87c4053aa6b"
@@ -98,24 +106,33 @@ os = "linux"
 
     [[Bison.download]]
     sha256 = "740b4d7ecb8b80901e14fe61458b9528fd97df8dd272488866f43cd467215865"
-    url = "https://github.com/JuliaBinaryWrappers/Bison_jll.jl/releases/download/Bison-v3.8.2+2/Bison.v3.8.2.powerpc64le-linux-gnu.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/Bison_jll.jl/releases/download/Bison-v3.8.3+0/Bison.v3.8.3.powerpc64le-linux-gnu.tar.gz"
 [[Bison]]
-arch = "x86_64"
-git-tree-sha1 = "76ec4370dfdeacb6b692c522089fc5d1dc0a756c"
-os = "macos"
-
-    [[Bison.download]]
-    sha256 = "74034ad9f5ab40c0fa925d353d7f4674962dc070689380988ea85680ec13ba04"
-    url = "https://github.com/JuliaBinaryWrappers/Bison_jll.jl/releases/download/Bison-v3.8.2+2/Bison.v3.8.2.x86_64-apple-darwin.tar.gz"
-[[Bison]]
-arch = "x86_64"
-git-tree-sha1 = "aacb7bbe272d154dee78537343746bf00e6150ef"
+arch = "riscv64"
+git-tree-sha1 = "d7e848c208fe8d55894e5f2ce6bbff138b6bfbe6"
 libc = "glibc"
 os = "linux"
 
     [[Bison.download]]
-    sha256 = "26c639603867536d06c0ebe57e124ab5baa1fb5ecb01ca60ec26496ce9504407"
-    url = "https://github.com/JuliaBinaryWrappers/Bison_jll.jl/releases/download/Bison-v3.8.2+2/Bison.v3.8.2.x86_64-linux-gnu.tar.gz"
+    sha256 = "d231740dbec480631348b7a7ed4a5995009b97c77222b29e657b52784b185862"
+    url = "https://github.com/JuliaBinaryWrappers/Bison_jll.jl/releases/download/Bison-v3.8.3+0/Bison.v3.8.3.riscv64-linux-gnu.tar.gz"
+[[Bison]]
+arch = "x86_64"
+git-tree-sha1 = "6150527810bbd8f170796de7519b1a6e70741e73"
+os = "macos"
+
+    [[Bison.download]]
+    sha256 = "6a34fc78fd492a2393e242fb18be40ef33de98fd68c82c03c4700d4b9e4adc83"
+    url = "https://github.com/JuliaBinaryWrappers/Bison_jll.jl/releases/download/Bison-v3.8.3+0/Bison.v3.8.3.x86_64-apple-darwin.tar.gz"
+[[Bison]]
+arch = "x86_64"
+git-tree-sha1 = "ca2b9b0afa03d5df9d2364a8ed8218b5ec7c1f22"
+libc = "glibc"
+os = "linux"
+
+    [[Bison.download]]
+    sha256 = "f33b9261734a60b6adb6aa4a75ac6b3cd78580f70e822f4d1ef5ad82b9e9da41"
+    url = "https://github.com/JuliaBinaryWrappers/Bison_jll.jl/releases/download/Bison-v3.8.3+0/Bison.v3.8.3.x86_64-linux-gnu.tar.gz"
 [[Bison]]
 arch = "x86_64"
 git-tree-sha1 = "f312d067a5f28a1b192e08aa71431c0615b462ba"
@@ -124,20 +141,20 @@ os = "linux"
 
     [[Bison.download]]
     sha256 = "5e611332fe688a76f081defd6c8b04ef72d446a7974611688139dab32e02c775"
-    url = "https://github.com/JuliaBinaryWrappers/Bison_jll.jl/releases/download/Bison-v3.8.2+2/Bison.v3.8.2.x86_64-linux-musl.tar.gz"
+    url = "https://github.com/JuliaBinaryWrappers/Bison_jll.jl/releases/download/Bison-v3.8.3+0/Bison.v3.8.3.x86_64-linux-musl.tar.gz"
 [[Bison]]
 arch = "x86_64"
-git-tree-sha1 = "9627a4dbcf48c9d7f552f364185bc49cc496cb47"
+git-tree-sha1 = "3f9c4599eaf90ceb82bfcdc77e959986bb8f54bf"
 os = "freebsd"
 
     [[Bison.download]]
-    sha256 = "a1008f56b60fd6d9e5b2788a2fcea594ea433cbdb023d96b20a5e8ad141c9b1f"
-    url = "https://github.com/JuliaBinaryWrappers/Bison_jll.jl/releases/download/Bison-v3.8.2+2/Bison.v3.8.2.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "d681344eb80a717d233d6b588563f003981e7a91ededa3aa02042fadbf903fe3"
+    url = "https://github.com/JuliaBinaryWrappers/Bison_jll.jl/releases/download/Bison-v3.8.3+0/Bison.v3.8.3.x86_64-unknown-freebsd.tar.gz"
 [[Bison]]
 arch = "x86_64"
-git-tree-sha1 = "4239d7c8d73d6c41422db5bcd9afe7fed9e1a497"
+git-tree-sha1 = "a9ea48405b1b029e128330781c76d62aee6c30b7"
 os = "windows"
 
     [[Bison.download]]
-    sha256 = "4494dc62398f2abaf86f90dee7fb21cdcf608caf872c3e81e69af8ff44115cef"
-    url = "https://github.com/JuliaBinaryWrappers/Bison_jll.jl/releases/download/Bison-v3.8.2+2/Bison.v3.8.2.x86_64-w64-mingw32.tar.gz"
+    sha256 = "30093010d8aee6a6bf520ab50bda2e78a7c255e9117b326918544084c32d28f8"
+    url = "https://github.com/JuliaBinaryWrappers/Bison_jll.jl/releases/download/Bison-v3.8.3+0/Bison.v3.8.3.x86_64-w64-mingw32.tar.gz"
